@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ShareBlackboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wab-Ee-PuK">
+                                <rect key="frame" x="20" y="566" width="38" height="30"/>
+                                <state key="normal" title="Undo"/>
+                                <connections>
+                                    <action selector="undoBtn" destination="BYZ-38-t0r" eventType="touchUpInside" id="NmK-xH-8HC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfH-2r-22l">
+                                <rect key="frame" x="66" y="566" width="36" height="30"/>
+                                <state key="normal" title="Redo"/>
+                                <connections>
+                                    <action selector="redoBtn" destination="BYZ-38-t0r" eventType="touchUpInside" id="lRn-MA-2kj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lfg-tx-Ft0">
+                                <rect key="frame" x="546" y="566" width="34" height="30"/>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="saveBtn" destination="BYZ-38-t0r" eventType="touchUpInside" id="3fd-di-zoK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ccy-m4-JhD">
+                                <rect key="frame" x="479" y="566" width="59" height="30"/>
+                                <state key="normal" title="Connect"/>
+                                <connections>
+                                    <action selector="connectBtn" destination="BYZ-38-t0r" eventType="touchUpInside" id="MxI-7h-zah"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Lfg-tx-Ft0" firstAttribute="leading" secondItem="Ccy-m4-JhD" secondAttribute="trailing" constant="8" id="0na-we-Czu"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Wab-Ee-PuK" secondAttribute="bottom" constant="4" id="ApL-wo-naU"/>
+                            <constraint firstItem="Wab-Ee-PuK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="S1O-Cp-pDG"/>
+                            <constraint firstItem="jfH-2r-22l" firstAttribute="leading" secondItem="Wab-Ee-PuK" secondAttribute="trailing" constant="8" id="d5g-ua-fvm"/>
+                            <constraint firstItem="Lfg-tx-Ft0" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="n5n-XL-Odm"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ccy-m4-JhD" secondAttribute="bottom" constant="4" id="rNq-jQ-E44"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Lfg-tx-Ft0" secondAttribute="bottom" constant="4" id="sFw-yS-yta"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jfH-2r-22l" secondAttribute="bottom" constant="4" id="xQY-K0-Vv3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="435" y="389"/>
+        </scene>
+    </scenes>
+</document>

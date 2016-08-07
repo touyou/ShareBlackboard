@@ -1,0 +1,6 @@
+framework module Pods_ShareBlackboard {
+  umbrella header "Pods-ShareBlackboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

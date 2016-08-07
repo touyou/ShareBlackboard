@@ -1,0 +1,15 @@
+PODS:
+  - NXDrawKit (0.1.0):
+    - SnapKit (~> 0.15.0)
+  - SnapKit (0.15.0)
+
+DEPENDENCIES:
+  - NXDrawKit
+
+SPEC CHECKSUMS:
+  NXDrawKit: b6e3c14535b2e528ca37ea2e3ca774ddd3368910
+  SnapKit: 4962eed2ee18e48cbd2b2292fffc57efe7235f87
+
+PODFILE CHECKSUM: 700386843d3d07e1e8480ff7e4bdea6a89e30a3c
+
+COCOAPODS: 1.0.1

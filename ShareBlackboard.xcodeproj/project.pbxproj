@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		251F97F33A6028FA1D0D4770 /* Pods_ShareBlackboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1623989E0246184D9BA26DDA /* Pods_ShareBlackboardUITests.framework */; };
+		2FF6EB5B97FF1E4DA06D7B6C /* Pods_ShareBlackboardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AA972ED7088B62896DEA7E /* Pods_ShareBlackboardTests.framework */; };
+		460F3B541D56F40C00CFD177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F3B531D56F40C00CFD177 /* AppDelegate.swift */; };
+		460F3B561D56F40C00CFD177 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F3B551D56F40C00CFD177 /* ViewController.swift */; };
+		460F3B591D56F40C00CFD177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460F3B571D56F40C00CFD177 /* Main.storyboard */; };
+		460F3B5B1D56F40C00CFD177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460F3B5A1D56F40C00CFD177 /* Assets.xcassets */; };
+		460F3B5E1D56F40C00CFD177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460F3B5C1D56F40C00CFD177 /* LaunchScreen.storyboard */; };
+		460F3B691D56F40C00CFD177 /* ShareBlackboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F3B681D56F40C00CFD177 /* ShareBlackboardTests.swift */; };
+		460F3B741D56F40C00CFD177 /* ShareBlackboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F3B731D56F40C00CFD177 /* ShareBlackboardUITests.swift */; };
+		460F3B821D56F58600CFD177 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460F3B811D56F58600CFD177 /* MultipeerConnectivity.framework */; };
+		460F3B851D57046500CFD177 /* UIImage+colorImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F3B841D57046500CFD177 /* UIImage+colorImage.swift */; };
+		FA9CB82907A4CEF6B99A6F2D /* Pods_ShareBlackboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C8430F9943D34180225E2F /* Pods_ShareBlackboard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		460F3B651D56F40C00CFD177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460F3B481D56F40C00CFD177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 460F3B4F1D56F40C00CFD177;
+			remoteInfo = ShareBlackboard;
+		};
+		460F3B701D56F40C00CFD177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460F3B481D56F40C00CFD177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 460F3B4F1D56F40C00CFD177;
+			remoteInfo = ShareBlackboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1623989E0246184D9BA26DDA /* Pods_ShareBlackboardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareBlackboardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		460F3B501D56F40C00CFD177 /* ShareBlackboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareBlackboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		460F3B531D56F40C00CFD177 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		460F3B551D56F40C00CFD177 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		460F3B581D56F40C00CFD177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		460F3B5A1D56F40C00CFD177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		460F3B5D1D56F40C00CFD177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		460F3B5F1D56F40C00CFD177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460F3B641D56F40C00CFD177 /* ShareBlackboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareBlackboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		460F3B681D56F40C00CFD177 /* ShareBlackboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareBlackboardTests.swift; sourceTree = "<group>"; };
+		460F3B6A1D56F40C00CFD177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460F3B6F1D56F40C00CFD177 /* ShareBlackboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareBlackboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		460F3B731D56F40C00CFD177 /* ShareBlackboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareBlackboardUITests.swift; sourceTree = "<group>"; };
+		460F3B751D56F40C00CFD177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460F3B811D56F58600CFD177 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		460F3B841D57046500CFD177 /* UIImage+colorImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+colorImage.swift"; sourceTree = "<group>"; };
+		4C00E754E88ADB23D17F43E8 /* Pods-ShareBlackboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareBlackboardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareBlackboardTests/Pods-ShareBlackboardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		78C8430F9943D34180225E2F /* Pods_ShareBlackboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareBlackboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AA972ED7088B62896DEA7E /* Pods_ShareBlackboardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareBlackboardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1DEE8A117DA5A4A8B74B5F1 /* Pods-ShareBlackboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareBlackboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareBlackboard/Pods-ShareBlackboard.release.xcconfig"; sourceTree = "<group>"; };
+		DF0DAD5D921BD64C71A88C09 /* Pods-ShareBlackboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareBlackboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareBlackboard/Pods-ShareBlackboard.debug.xcconfig"; sourceTree = "<group>"; };
+		E29E70EE66229F98D72CD3ED /* Pods-ShareBlackboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareBlackboardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareBlackboardTests/Pods-ShareBlackboardTests.release.xcconfig"; sourceTree = "<group>"; };
+		E36DBAD22B517C75EBF46301 /* Pods-ShareBlackboardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareBlackboardUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareBlackboardUITests/Pods-ShareBlackboardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FB214F576E6F6D61099B9727 /* Pods-ShareBlackboardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareBlackboardUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareBlackboardUITests/Pods-ShareBlackboardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		460F3B4D1D56F40C00CFD177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460F3B821D56F58600CFD177 /* MultipeerConnectivity.framework in Frameworks */,
+				FA9CB82907A4CEF6B99A6F2D /* Pods_ShareBlackboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460F3B611D56F40C00CFD177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF6EB5B97FF1E4DA06D7B6C /* Pods_ShareBlackboardTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460F3B6C1D56F40C00CFD177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251F97F33A6028FA1D0D4770 /* Pods_ShareBlackboardUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		460F3B471D56F40C00CFD177 = {
+			isa = PBXGroup;
+			children = (
+				460F3B521D56F40C00CFD177 /* ShareBlackboard */,
+				460F3B671D56F40C00CFD177 /* ShareBlackboardTests */,
+				460F3B721D56F40C00CFD177 /* ShareBlackboardUITests */,
+				460F3B511D56F40C00CFD177 /* Products */,
+				D0C2BB873E16DF9CCE23653B /* Pods */,
+				5C69FC9BC2B99A7FF5331BBF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		460F3B511D56F40C00CFD177 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				460F3B501D56F40C00CFD177 /* ShareBlackboard.app */,
+				460F3B641D56F40C00CFD177 /* ShareBlackboardTests.xctest */,
+				460F3B6F1D56F40C00CFD177 /* ShareBlackboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		460F3B521D56F40C00CFD177 /* ShareBlackboard */ = {
+			isa = PBXGroup;
+			children = (
+				460F3B531D56F40C00CFD177 /* AppDelegate.swift */,
+				460F3B551D56F40C00CFD177 /* ViewController.swift */,
+				460F3B571D56F40C00CFD177 /* Main.storyboard */,
+				460F3B5A1D56F40C00CFD177 /* Assets.xcassets */,
+				460F3B5C1D56F40C00CFD177 /* LaunchScreen.storyboard */,
+				460F3B5F1D56F40C00CFD177 /* Info.plist */,
+				460F3B841D57046500CFD177 /* UIImage+colorImage.swift */,
+			);
+			path = ShareBlackboard;
+			sourceTree = "<group>";
+		};
+		460F3B671D56F40C00CFD177 /* ShareBlackboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				460F3B681D56F40C00CFD177 /* ShareBlackboardTests.swift */,
+				460F3B6A1D56F40C00CFD177 /* Info.plist */,
+			);
+			path = ShareBlackboardTests;
+			sourceTree = "<group>";
+		};
+		460F3B721D56F40C00CFD177 /* ShareBlackboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				460F3B731D56F40C00CFD177 /* ShareBlackboardUITests.swift */,
+				460F3B751D56F40C00CFD177 /* Info.plist */,
+			);
+			path = ShareBlackboardUITests;
+			sourceTree = "<group>";
+		};
+		5C69FC9BC2B99A7FF5331BBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				460F3B811D56F58600CFD177 /* MultipeerConnectivity.framework */,
+				78C8430F9943D34180225E2F /* Pods_ShareBlackboard.framework */,
+				82AA972ED7088B62896DEA7E /* Pods_ShareBlackboardTests.framework */,
+				1623989E0246184D9BA26DDA /* Pods_ShareBlackboardUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0C2BB873E16DF9CCE23653B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF0DAD5D921BD64C71A88C09 /* Pods-ShareBlackboard.debug.xcconfig */,
+				D1DEE8A117DA5A4A8B74B5F1 /* Pods-ShareBlackboard.release.xcconfig */,
+				4C00E754E88ADB23D17F43E8 /* Pods-ShareBlackboardTests.debug.xcconfig */,
+				E29E70EE66229F98D72CD3ED /* Pods-ShareBlackboardTests.release.xcconfig */,
+				FB214F576E6F6D61099B9727 /* Pods-ShareBlackboardUITests.debug.xcconfig */,
+				E36DBAD22B517C75EBF46301 /* Pods-ShareBlackboardUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		460F3B4F1D56F40C00CFD177 /* ShareBlackboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460F3B781D56F40C00CFD177 /* Build configuration list for PBXNativeTarget "ShareBlackboard" */;
+			buildPhases = (
+				EBF4492AB6BE9B6990705FDA /* [CP] Check Pods Manifest.lock */,
+				460F3B4C1D56F40C00CFD177 /* Sources */,
+				460F3B4D1D56F40C00CFD177 /* Frameworks */,
+				460F3B4E1D56F40C00CFD177 /* Resources */,
+				5FD72427359B2626D6F1DBFD /* [CP] Embed Pods Frameworks */,
+				5872C228BD94201E3ECFD633 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareBlackboard;
+			productName = ShareBlackboard;
+			productReference = 460F3B501D56F40C00CFD177 /* ShareBlackboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		460F3B631D56F40C00CFD177 /* ShareBlackboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460F3B7B1D56F40C00CFD177 /* Build configuration list for PBXNativeTarget "ShareBlackboardTests" */;
+			buildPhases = (
+				62CE440DEC72521484960584 /* [CP] Check Pods Manifest.lock */,
+				460F3B601D56F40C00CFD177 /* Sources */,
+				460F3B611D56F40C00CFD177 /* Frameworks */,
+				460F3B621D56F40C00CFD177 /* Resources */,
+				7798810995FF43F2501A5EDC /* [CP] Embed Pods Frameworks */,
+				A967F41D210642C28E59016B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				460F3B661D56F40C00CFD177 /* PBXTargetDependency */,
+			);
+			name = ShareBlackboardTests;
+			productName = ShareBlackboardTests;
+			productReference = 460F3B641D56F40C00CFD177 /* ShareBlackboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		460F3B6E1D56F40C00CFD177 /* ShareBlackboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460F3B7E1D56F40C00CFD177 /* Build configuration list for PBXNativeTarget "ShareBlackboardUITests" */;
+			buildPhases = (
+				0544F98CB492594BCACBD229 /* [CP] Check Pods Manifest.lock */,
+				460F3B6B1D56F40C00CFD177 /* Sources */,
+				460F3B6C1D56F40C00CFD177 /* Frameworks */,
+				460F3B6D1D56F40C00CFD177 /* Resources */,
+				723F5B0337B42291B8217C9F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				460F3B711D56F40C00CFD177 /* PBXTargetDependency */,
+			);
+			name = ShareBlackboardUITests;
+			productName = ShareBlackboardUITests;
+			productReference = 460F3B6F1D56F40C00CFD177 /* ShareBlackboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		460F3B481D56F40C00CFD177 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = touyou;
+				TargetAttributes = {
+					460F3B4F1D56F40C00CFD177 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					460F3B631D56F40C00CFD177 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 460F3B4F1D56F40C00CFD177;
+					};
+					460F3B6E1D56F40C00CFD177 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 460F3B4F1D56F40C00CFD177;
+					};
+				};
+			};
+			buildConfigurationList = 460F3B4B1D56F40C00CFD177 /* Build configuration list for PBXProject "ShareBlackboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 460F3B471D56F40C00CFD177;
+			productRefGroup = 460F3B511D56F40C00CFD177 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				460F3B4F1D56F40C00CFD177 /* ShareBlackboard */,
+				460F3B631D56F40C00CFD177 /* ShareBlackboardTests */,
+				460F3B6E1D56F40C00CFD177 /* ShareBlackboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		460F3B4E1D56F40C00CFD177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460F3B5E1D56F40C00CFD177 /* LaunchScreen.storyboard in Resources */,
+				460F3B5B1D56F40C00CFD177 /* Assets.xcassets in Resources */,
+				460F3B591D56F40C00CFD177 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460F3B621D56F40C00CFD177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460F3B6D1D56F40C00CFD177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0544F98CB492594BCACBD229 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5872C228BD94201E3ECFD633 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareBlackboard/Pods-ShareBlackboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FD72427359B2626D6F1DBFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareBlackboard/Pods-ShareBlackboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62CE440DEC72521484960584 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		723F5B0337B42291B8217C9F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareBlackboardUITests/Pods-ShareBlackboardUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7798810995FF43F2501A5EDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareBlackboardTests/Pods-ShareBlackboardTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A967F41D210642C28E59016B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareBlackboardTests/Pods-ShareBlackboardTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBF4492AB6BE9B6990705FDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		460F3B4C1D56F40C00CFD177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460F3B561D56F40C00CFD177 /* ViewController.swift in Sources */,
+				460F3B851D57046500CFD177 /* UIImage+colorImage.swift in Sources */,
+				460F3B541D56F40C00CFD177 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460F3B601D56F40C00CFD177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460F3B691D56F40C00CFD177 /* ShareBlackboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460F3B6B1D56F40C00CFD177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460F3B741D56F40C00CFD177 /* ShareBlackboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		460F3B661D56F40C00CFD177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 460F3B4F1D56F40C00CFD177 /* ShareBlackboard */;
+			targetProxy = 460F3B651D56F40C00CFD177 /* PBXContainerItemProxy */;
+		};
+		460F3B711D56F40C00CFD177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 460F3B4F1D56F40C00CFD177 /* ShareBlackboard */;
+			targetProxy = 460F3B701D56F40C00CFD177 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		460F3B571D56F40C00CFD177 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				460F3B581D56F40C00CFD177 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		460F3B5C1D56F40C00CFD177 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				460F3B5D1D56F40C00CFD177 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		460F3B761D56F40C00CFD177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		460F3B771D56F40C00CFD177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		460F3B791D56F40C00CFD177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF0DAD5D921BD64C71A88C09 /* Pods-ShareBlackboard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareBlackboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.touyou.ShareBlackboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		460F3B7A1D56F40C00CFD177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1DEE8A117DA5A4A8B74B5F1 /* Pods-ShareBlackboard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareBlackboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.touyou.ShareBlackboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		460F3B7C1D56F40C00CFD177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C00E754E88ADB23D17F43E8 /* Pods-ShareBlackboardTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareBlackboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.touyou.ShareBlackboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareBlackboard.app/ShareBlackboard";
+			};
+			name = Debug;
+		};
+		460F3B7D1D56F40C00CFD177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E29E70EE66229F98D72CD3ED /* Pods-ShareBlackboardTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareBlackboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.touyou.ShareBlackboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareBlackboard.app/ShareBlackboard";
+			};
+			name = Release;
+		};
+		460F3B7F1D56F40C00CFD177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB214F576E6F6D61099B9727 /* Pods-ShareBlackboardUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ShareBlackboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.touyou.ShareBlackboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareBlackboard;
+			};
+			name = Debug;
+		};
+		460F3B801D56F40C00CFD177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E36DBAD22B517C75EBF46301 /* Pods-ShareBlackboardUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ShareBlackboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.touyou.ShareBlackboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareBlackboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		460F3B4B1D56F40C00CFD177 /* Build configuration list for PBXProject "ShareBlackboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460F3B761D56F40C00CFD177 /* Debug */,
+				460F3B771D56F40C00CFD177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460F3B781D56F40C00CFD177 /* Build configuration list for PBXNativeTarget "ShareBlackboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460F3B791D56F40C00CFD177 /* Debug */,
+				460F3B7A1D56F40C00CFD177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460F3B7B1D56F40C00CFD177 /* Build configuration list for PBXNativeTarget "ShareBlackboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460F3B7C1D56F40C00CFD177 /* Debug */,
+				460F3B7D1D56F40C00CFD177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460F3B7E1D56F40C00CFD177 /* Build configuration list for PBXNativeTarget "ShareBlackboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460F3B7F1D56F40C00CFD177 /* Debug */,
+				460F3B801D56F40C00CFD177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 460F3B481D56F40C00CFD177 /* Project object */;
+}
