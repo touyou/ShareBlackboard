@@ -33,6 +33,8 @@ final class ViewController: UIViewController {
         browser.delegate = self
         assistant = MCAdvertiserAssistant(serviceType: serviceType, discoveryInfo: nil, session: session)
         assistant.start()
+        let imageView: UIImageView = UIImageView()
+        imageView.frame
     }
 
     override func viewDidAppear(animated: Bool) {
